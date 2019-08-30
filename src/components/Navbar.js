@@ -10,7 +10,7 @@ class Navbar extends React.Component {
       <Link to="/" className="name">
       <h1>Masnoon Junaid</h1>
       </Link>
-      <Link to="/status" className="status">
+      <Link to="/status+goal+current projects+university_life" className="status">
       <h3>Status</h3>
       </Link>
       </NavWrapper>
@@ -31,16 +31,16 @@ h3{
 }
 h1{
   color:white;
+  float:left;
 }
 
 .name{
   text-decoration:none;
-  float:left;
   margin-left:4%;
   margin-right:auto;
-  text-align:center;
 }
 .status{
+  width:8%;
   float:right;
   margin-left:auto;
   margin-right:3%;

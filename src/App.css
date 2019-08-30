@@ -26,7 +26,14 @@
   width: 100%;
   display:flex;
   flex-wrap: wrap;
-  position: fixed;
-  height: 10%;
-  background-color: cadetblue;
+  height: 10vh;
+  background-color: #D71E3C;
+}
+
+.images{
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  float: left;
 }
