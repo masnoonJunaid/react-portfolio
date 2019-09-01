@@ -2,7 +2,7 @@ import React,{components} from "react"
 import styled from "styled-components";
 class SkillList extends React.Component{
   render(){
-    const {title,img,id } = this.props.product;
+    const {title,img} = this.props.product;
     return(
       <ImageWrap>
         <div className="images">
@@ -21,6 +21,7 @@ img{
   margin-left:20%;
   margin-top:3%;
 }
+
 img:hover{
   transform: scale(1.9);
   transition: all 1s ease-in-out;

@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,5 +40,17 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 10%;
+  float: left;
+}
+@media screen and (max-width:610px){
+  .images{
+    width: 100%;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+.connect{
+  display: flex;
   float: left;
 }

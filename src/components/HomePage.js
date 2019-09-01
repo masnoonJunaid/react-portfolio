@@ -1,8 +1,9 @@
 import React from 'react'
-import { Link } from "react-router-dom";
 import {  DataConsumer  } from '../context';
 import SkillList from "./SkillList"
 import styled from 'styled-components'
+import Contacts from "./Contacts"
+
 
 class HomePage extends React.Component {
   render(){
@@ -11,51 +12,91 @@ class HomePage extends React.Component {
         <Home>
         <div className="details">
         <h1>Welcome!</h1>
-        <p>Front end developer and a 3rd year CSE undergraduate at Aliah University.</p>
+        <p>Front end developer and a 3rd year CSE undergraduate at Aliah University here.</p>
         <p>Available for development of responsive web pages and web applications with react framework and context api.</p>
         </div>
         <div className="skills">
-          <h2>Skills and tools</h2>
-          <DataConsumer>
-              {value =>{
-                return value.products.map(data=> {
-                  return <SkillList key = {data.id} product = {data}/>;
-                })
+          <div className="tools">
+            <h2>Skills and tools</h2>
+            <DataConsumer>
+                {value =>{
+                  return value.products.map(data=> {
+                    return <SkillList key = {data.id} product = {data}/>;
+                  })
+                }}
+            </DataConsumer>
+            <p className="projects">For Project details visit my github profile <span><a href="https://github.com/1203929"rel="nopener noreferrer" target="_blank">here</a></span></p>
+          </div>
+          <div className="social">
+            <DataConsumer>
+              {value => {
+                return value.contacts.map(data=> {
+                  return <Contacts key={data.id} product = {data}/>;
+                });
               }}
-          </DataConsumer>
-          <div></div>
-          <p className="projects">For Project details visit my github profile <span><a href="https://github.com/1203929"rel="nopener noreferrer" target="_blank">here</a></span></p>
+            </DataConsumer>
+            <h4>Let's work togeather</h4>
+          </div>
         </div>
-        </Home>
+            </Home>
       </React.Fragment>
     )
   }
 }
 
 const Home = styled.div`
-.projects{
-  margin-top:42%;
+h1 {
+  color:chocolate;
+}
+h2 {
+  color:chocolate;
+}
+
+h4{
+  color:chocolate;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 }
 .details{
   margin-left:20%;;
   margin-right:5%;
+  margin-top:3%;
   text-align:left;
 }
 .skills{
-  margin-left:5%
-  width:50%;
-  float:left;
+  width:100%;
 }
-@media screen and (max-width:500px){
-  .skills{
-    width:100%;
-    
-  }
+
+.social{
+  margin-top:30%;
+  float:right;
+  margin-right:10%;
 }
+.tools{
+float:left;
+width:50%;
+height:100%;
+margin-top:5%;
+margin-left:20%;
+}
+
+
 .hope{
+  height:100%;
   float:right;
   width:40%;
 }
+P{
+  font-family:'Bitter', serif;
+}
+font-family: 'Manjari', sans-serif;
+font-family: 'Bitter', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Francois One', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Fredoka One', cursive;
 
 `
 

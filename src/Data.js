@@ -43,23 +43,27 @@
 
 export const connect = [
   {
+    id:1,
     title:"Instagram",
     img: "images/insta.svg",
-    id:1
+    link:"https://www.instagram.com/masnoonjunaid/",
   },
   {
+    id:2,
     title: "Facebook",
     img : "images/fb.svg",
-    id:2
+    link:"https://www.facebook.com/masnoon.junaid",
   },
   {
+    id:3,
     title : "Github",
-    img : "images/github.svg",
-    id:3
+    img : "images/github-connect.svg",
+    link:"https://github.com/1203929",
   },
   {
+    id:4,
     title : "Linkedin",
-    img : "images/link.svg",
-    id:4
+    img : "images/linkedin.svg",
+    link:"https://www.linkedin.com/in/masnoon-junaid/",
   }
 ]

@@ -20,8 +20,11 @@ class Navbar extends React.Component {
 const NavWrapper = styled.div`
 h3{
   float:right;
+  margin-right:5%;
+  font-family:'Fredoka One', cursive;
   color:white;
 }
+
 
  h1:hover{
   color:black;
@@ -30,6 +33,7 @@ h3{
   color:black;
 }
 h1{
+  font-family:'Fredoka One', cursive;
   color:white;
   float:left;
 }
