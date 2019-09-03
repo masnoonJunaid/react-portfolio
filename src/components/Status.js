@@ -63,7 +63,7 @@ img{
 img:hover{
   transform:scale(1.1);
   transition:all 1s ease-in-out;
-  opacity:1
+  opacity:0.5;
 }
 
 
