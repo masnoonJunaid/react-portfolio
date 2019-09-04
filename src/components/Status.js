@@ -32,6 +32,10 @@ const Article  = styled.div`
 .unicode{
   color:hotpink;
 }
+h2{
+  font-family:'Manjari', sans-serif;
+  color:chocolate;
+}
 h4{
   margin-left:4%;
 }

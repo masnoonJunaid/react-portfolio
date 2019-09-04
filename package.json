@@ -2,7 +2,6 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://www.masnoon.engineer",
   "dependencies": {
     "browser-routes": "0.0.14",
     "gh-pages": "^2.1.1",

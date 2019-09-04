@@ -1,5 +1,5 @@
 import  React, {  Component } from 'react'
-import {skills, connect} from './data';
+import {skills, connect} from './Data';
 
 const DataContext = React.createContext() ;
 class DataProvider extends Component {
