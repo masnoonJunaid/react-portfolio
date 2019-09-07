@@ -7,7 +7,7 @@ class Status extends React.Component{
     return(
       <Article>
         <div className="semester">
-          <h2>7th semester of cse</h2>
+          <h2>5th semester of cse</h2>
           <article>
             <img alt="" src="images/joker.jpg"/>
             <p><b>Going</b> through a brutual mind attack, caused by current
