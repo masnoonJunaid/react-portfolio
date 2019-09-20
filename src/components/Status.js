@@ -10,7 +10,7 @@ class Status extends React.Component{
           <h2>5th semester of cse</h2>
           <article>
             <img alt="" src="images/joker.jpg"/>
-            <p><b>Going</b> through a brutual mind attack, caused by current
+            <p><b>Going</b> through a certain immense pressure, caused by current
              semester syllabus, contains microprocessor, DBMS, OS,numerical
               analysis, graph theory. Means a lot to cover within next few months.
               this photogrph is the result of routine gethering during lab session. Daily life
