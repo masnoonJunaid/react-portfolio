@@ -22,7 +22,7 @@ class Status extends React.Component{
           </article>
         </div>
         <h5 className="react"> with <span className="unicode">♥</span> react framework</h5>
-        <h4>Meet my Cats <a href="https://1203929.github.io/catclicker/" target="_blank"> here</a></h4>
+        <h4>Meet my Cats <a href="https://masnoonjunaid.github.io/catclicker/" target="_blank"> here</a></h4>
       </Article>
     )
   }
