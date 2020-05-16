@@ -25,7 +25,7 @@ class HomePage extends React.Component {
                   })
                 }}
             </DataConsumer>
-            <p className="projects">For Project details visit my github profile <span><a href="https://github.com/1203929"rel="nopener noreferrer" target="_blank">here</a></span></p>
+            <p className="projects">For Project details visit my github profile <span><a href="https://github.com/masnoonJunaid"rel="nopener noreferrer" target="_blank">here</a></span></p>
           </div>
           <div className="social">
             <DataConsumer>
