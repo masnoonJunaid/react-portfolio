@@ -58,7 +58,7 @@ export const connect = [
     id:3,
     title : "Github",
     img : "images/github-connect.svg",
-    link:"https://github.com/1203929",
+    link:"https://github.com/masnoonJunaid",
   },
   {
     id:4,
